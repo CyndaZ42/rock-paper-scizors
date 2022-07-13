@@ -1,11 +1,11 @@
 using System;
 
-namespace ProjectName {
+namespace RPS {
   public class Program
   {
     public static void Main()
     {
-      Console.WriteLine(ClassName.Method("Behavior"));
+      Console.WriteLine(Players.Method("Behavior"));
     }
   }
 }

@@ -1,8 +1,8 @@
 using System;
 
-namespace ProjectName
+namespace RPS
 {
-  public class ClassName
+  public class Players
   {
     // properties, constructors, methods, etc. go here
     public static string Method(string behavior)

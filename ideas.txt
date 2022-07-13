@@ -1,0 +1,23 @@
+- Rock -- setting to 1
+- Paper -- setting to 2
+- Scissors --setting to 3
+
+- User picks one of them
+
+- Computer picks one at random
+
+Rock beats Scissors
+Scissors beats Paper
+Paper beats Rock
+
+
+// input1 = Player_input
+input2 = Computer_input
+
+--want to find a way to output (writeline: "choose rock paper scissors") and have (readline:{input1}).
+
+--want to random generate input2 value (from options rock, paper, or scissors")Random rnd = new Random();
+//
+
+Random rnd = new Random();
+rnd.Next(10));//returns random integers < 10

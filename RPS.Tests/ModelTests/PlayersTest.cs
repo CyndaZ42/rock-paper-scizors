@@ -1,17 +1,17 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ProjectName;
+using RPS;
 
-namespace ProjectName.Tests
+namespace RPS.Tests
 {
   [TestClass]
-  public class ClassNameTests
+  public class PlayersTests
   {
     // Test methods go here
     [TestMethod]
-    public void Method_Behavior_ReturnValue()
+    public void MakePlayer_SetPlayer_ReturnValue()
     {
       // any necessary logic to prep for test; instantiating new classes, etc.
-      Assert.AreEqual("Behavior is behaving", ClassName.Method("Behavior"));
+      Assert.AreEqual("Behavior is behaving", RPS.Method("Behavior"));
     }
   }
 }
