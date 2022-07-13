@@ -23,12 +23,12 @@ namespace RPS.Tests
   }
 }
 
-//[TestMethod]
-//public void OutcomeElements_GetOutcome_Outcome()
-//{
-  //Outcome Rock = new Outcome(1);
-  //Outcome Paper = new Outcome(2);
-  //Outcome Scissors = new Outcome(3);
-  //Assert.AreEqual(typeof(Outcome), Rock.GetType(), Paper.GetType(), Scissors.GetType());
+[TestMethod]
+public void OutcomeElements_GetOutcome_Outcome()
+{
+  Outcome rock = new Outcome(1);
+  Outcome paper = new Outcome(2);
+  Outcome scissors = new Outcome(3);
+  Assert.AreEqual(typeof(Outcome), rock.GetType(), paper.GetType(), scissors.GetType());
 
-//}
+}

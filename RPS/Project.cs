@@ -5,7 +5,11 @@ using System;
    {
      public static void Main()
      {
-//       Console.WriteLine(Player.Method("Behavior"));
+      Console.WriteLine("What is your name?");
+      Console.Write(Outcome.rock);
      }
    }
  }
+
+ // Outcome rock = new Outcome(1);
+ //Outcome
