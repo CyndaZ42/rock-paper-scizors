@@ -20,21 +20,19 @@ namespace RPS.Tests
       Assert.AreEqual(playerName, resultPlayer);
       Assert.AreEqual(comName, resultCom);
     }
+
+
+    [TestMethod]
+    public void OutcomeElements_GetOutcome_Oouttcome()
+    {
+      string playerName = "player1";
+      Player player1 = new Player(playerName, "rock");
+      //player1.Outcome = "rock";
+      //Outcome decision = new Outcome(1);
+      //Outcome paper = new Outcome(2);
+      //Outcome scissors = new Outcome(3);
+    }
   }
 }
-
-[TestMethod]
-public void OutcomeElements_GetOutcome_Oouttcome()
-{
-  string playerName = "player1";
-  Player player1 = new Player(playerName, "rock");
-  //player1.Outcome = "rock";
-  //Outcome decision = new Outcome(1);
-  //Outcome paper = new Outcome(2);
-  //Outcome scissors = new Outcome(3);
-  Assert.AreEqual(typeof(Player), player1.Oouttcome.GetType());
-
-}
-
 // [TestMethod]
 // public void 
