@@ -12,8 +12,8 @@ namespace RPS.Tests
     {
       string playerName = "player1";
       string comName = "Computer";
-      Player player1 = new Player(playerName);
-      Player computer = new Player(comName);
+      Player player1 = new Player(playerName, playerName);
+      Player computer = new Player(comName, comName);
       string resultPlayer = player1.PlayerName;
       string resultCom = computer.PlayerName;
       // any necessary logic to prep for test; instantiating new classes, etc.
@@ -24,11 +24,17 @@ namespace RPS.Tests
 }
 
 [TestMethod]
-public void OutcomeElements_GetOutcome_Outcome()
+public void OutcomeElements_GetOutcome_Oouttcome()
 {
-  Outcome rock = new Outcome(1);
-  Outcome paper = new Outcome(2);
-  Outcome scissors = new Outcome(3);
-  Assert.AreEqual(typeof(Outcome), rock.GetType(), paper.GetType(), scissors.GetType());
+  string playerName = "player1";
+  Player player1 = new Player(playerName, "rock");
+  //player1.Outcome = "rock";
+  //Outcome decision = new Outcome(1);
+  //Outcome paper = new Outcome(2);
+  //Outcome scissors = new Outcome(3);
+  Assert.AreEqual(typeof(Player), player1.Oouttcome.GetType());
 
 }
+
+// [TestMethod]
+// public void 
